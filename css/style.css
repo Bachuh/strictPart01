@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.h1 h2 h3 h4 h5 h6 p ul{
+margin: 0;
+padding: 0;
+}
+header{
+
+background: #f9f9f9;
+
+padding: 20px 0;
+}
+.header_wrapper{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+text-align: center;
+}
+.logo{
+
+width: 20%;
+}
+.logo img{
+
+}
+nav{
+
+width: 50%;
+}
+nav ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: end;
+}
+nav ul li{
+    
+margin-left: 30px;
+}
+nav ul li a{
+    
+text-decoration: none;
+    
+text-transform: uppercase;
+    
+color: #2d3950;
+font-family: 'Lato', sans-serif;
+}
+.banner{
+    background-image: url(../images/bannar.png);
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+.banner_content{
+
+width: 30%;
+
+text-align: center;
+}
+.banner_content h1{
+ font-family: 'Lato', sans-serif;    
+color: #fff;
+    
+font-size: 90px;
+    
+text-transform: uppercase;
+    
+margin-bottom: 10px;
+    
+font-weight: 500;
+}
+.banner_content span{
+    
+display: block;
+    
+background: #15a4fa;
+    
+height: 2px;
+    
+width: 108%;
+}
+.banner_content p{font-family: 'Lato', sans-serif;color: #fff;margin: 20px 0 30px 0;width: 106%;}
+.banner_content button{
+font-family: 'Lato', sans-serif;   
+background: transparent;
+    
+border: none;
+    
+border: 1px solid #15a4fa;
+    
+padding: 10px 20px;
+    
+border-radius: 5px;
+    
+color: #fff;
+    
+text-transform: capitalize;
+transition: .4s all ease-in-out;
+cursor: pointer;
+}
+.banner_content button:hover{
+background-color: #15a4fa;
+color: #fff;
+}
+.service{
+
+width: 100%;
+
+/* height: 76%; */
+
+background: #fff;
+}
+.service_heading{
+
+padding: 20px 0;
+
+text-align: center;
+
+background: #f6f9f9;
+
+margin: 20px 0 40px 0;
+}
+.service_heading h1{
+    
+text-align: center;
+    
+margin: 20px 0;
+    
+font-family: 'Lato', sans-serif;
+    
+font-size: 31px;
+}
+.service_heading p{
+    
+width: 100%;
+    
+text-align: center;
+    
+font-family: 'Lato', sans-serif;
+}
+.service_section{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 50px 0;
+}
+.service_section_item{
+
+width: 31%;
+
+text-align: center;
+}
+.service_section_item img{
+    
+}
+.service_section_item h2{
+    
+text-transform: capitalize;
+    
+margin: 10px 0;
+font-family: 'Lato', sans-serif;
+}
+.service_section_item p{
+    font-family: 'Lato', sans-serif;   
+}
